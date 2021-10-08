@@ -1,0 +1,35 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/stylesheet.css);
+
+.page{
+    position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 1440px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 252px;
+    background: linear-gradient( rgba(31, 32, 33, .79), rgba(31, 32, 33, .79)), url("/images/header_img.png");
+    background-position: 18%;
+}
+
+.header__content{
+    padding-top: 26px;
+    display: flex;
+}
+.header__logo{
+    background: url("/images/logo.png") no-repeat;
+    width: 78px;
+    height: 78px;
+    z-index: 100;
+    background-size: contain;
+    margin-left: 130px;
+}
