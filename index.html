@@ -9,7 +9,9 @@
     <body class="page">
             <header class="header">
                 <div class="header__content">
-                    <div class="header__logo"></div>
+                    <a href="/">
+                        <img class="header__logo" src="images/logo.png">
+                    </a>
                         <div class="header__links">
                             <a href="/" class="header__link">Main</a>
                             <a href="/" class="header__link">Gallery</a>
@@ -180,12 +182,25 @@
                                 <button class="cards__but cards__but_sold">Продан</button>
                         </li>
                     </ul>
-                    <button class="cards__add">Показать ещё 20</button>
+                    <button class="cards__add" type="button" aria-label="Показать ещё 20">Показать ещё 20</button>
+                    <button class="cards__up" type="button" aria-label="Вверх"></button>
                 </section>
             </main>
 
             <footer class="footer">
-                <p class="footer__mesto">© 2021 Mesto Russia</p>
+                <div class="footer__text">
+                    <h2 class="footer__title">Успей купить!</h2>
+                    <p class="footer__subtitle">Подпишись и успей словить все акции</p>
+                </div>
+                <div class="footer__form">
+                    <div>
+                        <input class="footer__input" type="email" placeholder="Email">
+                        <button class="footer__but" type="submit" aria-label="Подписаться">Подписаться</button>
+                    </div>
+                    <input id="filter" class="footer__filter-input" name="filter" type="checkbox"/>
+                        <label htmlFor="filter">Подписаться на новости</label>
+                </div>
+
             </footer>
     </body>
 </html>
