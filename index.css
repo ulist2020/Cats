@@ -139,8 +139,8 @@
     margin: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, 380px);
-    grid-template-rows: repeat(auto-fill, 785px);
-    column-gap: 21px;
+    grid-template-rows: repeat(auto-fill, 521px);
+    column-gap: 20px;
     row-gap: 27px;
     font-size: 0;
 }
@@ -166,11 +166,20 @@
     cursor: pointer;
     border: none;
     outline: none;
-    transition: .2s all ease;
+    transition: .5s all ease;
 }
 
 .cards__like:hover{
     top: 33px
+}
+
+.cards__like_sold{
+    background: url(/images/like_activ.png) no-repeat;
+}
+
+.cards__like_sold:hover{
+    cursor: default;
+    top: 36px;
 }
 
 .cards__sale{
@@ -187,6 +196,11 @@
     font-size: 16px;
     line-height: 39px;
     padding-left: 18px;
+    opacity: 0;
+}
+
+.cards__sale_activ{
+    opacity: 1;
 }
 
 .cards__block{
@@ -268,11 +282,43 @@
     text-align: center;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     transition: .5s all ease;
 }
 
 .cards__but:hover{
-    background: #2dafd6;
+    background: #10acdb;
+}
+.cards__but_sold{
+    background: #1F2021;
+}
+
+.cards__but_sold:hover{
+    cursor: default;
+    background: #1F2021;
+}
+
+.cards__add{
+    display: block;
+    margin: 0 auto;
+    margin-top: 68px;
+    width: 380px;
+    height: 65px;
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    transition: .5s all ease;
+    cursor: pointer;
+}
+
+.cards__add:hover{
+    background-color: #F3F3F3;
+
 }
