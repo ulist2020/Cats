@@ -10,5 +10,5 @@
 HTML  
 CSS  
 
-_Макет: https://www.figma.com/file/UXn4IQQqHM2TdpIpNJPeFt/T-Task?node-id=0%3A1_
+_Макет: https://www.figma.com/file/UXn4IQQqHM2TdpIpNJPeFt/T-Task?node-id=0%3A1_  
 _Проект https://ulist2020.github.io/Cats_
